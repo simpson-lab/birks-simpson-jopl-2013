@@ -6,7 +6,7 @@ This repo contains the data and R code used in the analyses presented in Birks &
 
 ## Reuse
 
-If you use the data or code in this repo, please cite the source using the repo's DOI: [10.5281/zenodo.2559489](https://doi.org/10.5281/zenodo.2559489] and, where appropriate, the original Birks & Simpson (2013) paper.
+If you use the data or code in this repo, please cite the source using the repo's DOI: [10.5281/zenodo.2559489](https://doi.org/10.5281/zenodo.2559489) and, where appropriate, the original Birks & Simpson (2013) paper.
 
 ## Scripts
 
