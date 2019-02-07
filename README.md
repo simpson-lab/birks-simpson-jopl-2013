@@ -32,4 +32,4 @@ Each of the `.rds` files containing the output from the analyses is processed wi
 
 ## References
 
-Birks, H. J. B., and G. L. Simpson. 2013. “Diatoms and pH reconstruction” (1990) revisited. *J. Paleolimnol.* **49**: 363–371. doi:[10.1007/s10933-013-9697-7](doi.org/10.1007/s10933-013-9697-7)
+Birks, H. J. B., and G. L. Simpson. 2013. “Diatoms and pH reconstruction” (1990) revisited. *J. Paleolimnol.* **49**: 363–371. doi:[10.1007/s10933-013-9697-7](https://doi.org/10.1007/s10933-013-9697-7)
