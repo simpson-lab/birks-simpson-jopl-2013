@@ -4,18 +4,24 @@
 
 This repo contains the data and R code used in the analyses presented in Birks &amp; Simpson (2013), *'Diatoms and pH reconstruction' (1990) revisited*, published in the Journal of Paleolimnology.
 
+## Reuse
+
+If you use the data or code in this repo, please cite the source using the repo's DOI: [10.5281/zenodo.2559489](https://doi.org/10.5281/zenodo.2559489] and, where appropriate, the original Birks & Simpson (2013) paper.
+
+## Scripts
+
 The `.R` scripts do the following tasks:
 
 1. data processing
 2. run the transfer function analyses
 3. collect the results and prepare figures
 
-## Data processing
+### Data processing
 
 * `load_data.R` loads the SWAP data set. It was intended to be called from each of the analysis scripts mentioned below.
 * `load_uk_data.R` loads the UK training set. It was intended to be called from each of the analysis scripts mentioned below.
 
-## Analyses
+### Analyses
 
 There are four main transfer function methods applied in the paper &mdash; MAT, WA, WA-PLS, and GLR &mdash; and the code for each method is contained in a separate script. These can be run in any order, although I used separate R sessions as there are conflicts between the *analogue* and *rioja* packages in some functions names. Each script produces a number of objects that are used later, and which are serialized to an `.rds` file, which is saved to disk at the edn of each of the analysis scripts.
 
@@ -28,10 +34,10 @@ Analysis scripts:
 
 The wrapper/helper functions in `paper_fun.R` are loaded in each of the analysis scripts.
 
-## Processing results and figures
+### Processing results and figures
 
 Each of the `.rds` files containing the output from the analyses is processed with the `process_results.R` script. This produces the figures presented in the paper and CSV files of tables of results.
 
 ## References
 
-Birks, H. J. B., and G. L. Simpson. 2013. “Diatoms and pH reconstruction” (1990) revisited. *J. Paleolimnol.* **49**: 363–371. doi:[10.1007/s10933-013-9697-7](https://doi.org/10.1007/s10933-013-9697-7)
+Birks, H. J. B., and G. L. Simpson. 2013. “Diatoms and pH reconstruction” (1990) revisited. *J. Paleolimnol.* **49**: 363–371. doi:[10.1007/s10933-013-9697-7](https://doi.org/10.1007/s10933-013-9697-7).
