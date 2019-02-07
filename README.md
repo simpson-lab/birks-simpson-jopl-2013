@@ -1,5 +1,7 @@
 # R Code and data sets for Birks & Simpson (2013)
 
+[![DOI](https://zenodo.org/badge/169605728.svg)](https://zenodo.org/badge/latestdoi/169605728)
+
 This repo contains the data and R code used in the analyses presented in Birks &amp; Simpson (2013), *'Diatoms and pH reconstruction' (1990) revisited*, published in the Journal of Paleolimnology.
 
 The `.R` scripts do the following tasks:
